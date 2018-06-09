@@ -157,7 +157,7 @@ function MyFilterState() {
     for (i = 0; i < tr.length; i++) {
         td = tr[i].getElementsByTagName("td")[0];
         tdCity = tr[i].getElementsByTagName("td")[1];
-        tdState = tr[i].getElementsByTagName("td")[2];
+        tdState = tr[i].getElementsByTagName("td")[2];   
         tdCountry = tr[i].getElementsByTagName("td")[3];
         tdShape = tr[i].getElementsByTagName("td")[4];
 
