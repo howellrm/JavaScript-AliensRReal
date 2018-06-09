@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.headerPage {
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1421930535025-d2af27c14065?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c4eb1a38b4093e8d1653d87b73bd767c&auto=format&fit=crop&w=2850&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.75; */
+}
+
+
+h1 {
+    color: #a0d29e;
+    font-size: 500%;
+    font-weight: bold;
+
+}
+
+.para {
+    color: #faf8fa;
+    line-height: 40px;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.footer {
+    color: #a0d29e;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+a:link {
+    color: #77e6ee;
+}
+
+a:hover { 
+    color: whitesmoke;
+}
+
+.query-tag {
+    padding-left: 15%;
+}
+.db-tag {
+    padding-left: 30%;
+}
+.Page {
+    margin-top: -10px;
+    background-color: whitesmoke;
+}
+
+.center-text {
+    padding: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Page h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.center-text h2 {
+    line-height: 1.6;
+    color: azure;
+}
+
+table {
+    table-layout: fixed;
+    text-align: center;
+}
+
+th {
+  background-color: blueviolet;
+  color: white;
+}
+
+tbody
+{
+     height: 300px; /* Random number I chose */
+     overflow: scroll /* you can be more specific and use overflow-y */
+}
+
+.padding-query {
+    text-align: center;
+    text-shadow: 30px;
+}
+
+.margin-query-tags {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.btn {
+    border-radius: 9px;
+    font-family: 'Poppins', sans-serif;
+    color: #a0d29e;
+    font-size: 135%;
+    padding: 10px 20px;
+    border: solid #a0d29e 3px;
+    text-transform: uppercase;
+    text-emphasis: bold;
+    text-decoration: none;
+    background-color: transparent;
+}
+.btn:hover {
+    color: #fff;
+    border: solid #fff 3 px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .content h1{
+        font-size: 250%;
+     }
+     .btn{
+         font-size: 110%;
+         padding: 7px 15px;
+     } 
+     .p{
+         font-size: 100%;
+         line-height: 160%;
+     }
+ }
+ 

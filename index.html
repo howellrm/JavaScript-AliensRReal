@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ALIENS-R-REAL</title>
+
+    <!-- BOOTSTRAP library -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+<body class="overlay">
+    <div class="headerPage">
+        <div class="container-fluid text-center">
+            <div class="center-text">
+                <h1>WHAT IS A UFO??</h1>
+                <p class="para">UFO or unidentified flying object refers a mysterious object seen in the sky for
+                     which, it is claimed, no orthodox scientific explanation can be found. In popular 
+                     culture, the term UFO–or unidentified flying object–refers to a suspected alien 
+                     spacecraft, although its definition encompasses any unexplained aerial phenomena. 
+                     UFO sightings have been reported throughout recorded history and in various parts 
+                     of the world, raising questions about life on other planets and whether extraterrestrials 
+                     have visited Earth. They became a major subject of interest–and the inspiration 
+                     behind numerous films and books–following the development of rocketry after World War II.
+                    </h3>
+                    <br>
+                    <p class="footer">
+                        Visit the <a href="https://www.history.com/topics/history-of-ufos" target="_blank">History of UFOs</a> for more information.
+                    </p>
+                    <br>
+                <a href="#explore">
+                    <button type="button" class="btn">Explore Database</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="Page">
+        <p id="explore"></p>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="query-tag">
+                    <h2>Alien Database</h2>
+                </div>
+                <hr>
+                <div class="padding-query">
+                    <div class="margin-query-tags">
+                        <p>Use the below search parameters to narrow down search.</p>
+                    </div>
+                    <br>
+                    <label for="">Datetime</label>
+                    <br>
+                    <input type="text" id="myInput" onkeyup="MyFilterDateTime()" placeholder="">
+                    <p></p>
+                    <label for="">City</label>
+                    <br>
+                    <input type="text" id="MyInputCity" onkeyup="MyFilterCity()" placeholder="">
+                    <br>
+                    <p></p>
+                    <label for="">State</label>
+                    <br>
+                    <input type="text" id="MyInputState" onkeyup="MyFilterState()" placeholder="">
+                    <p></p>
+                    <label for="">Country</label>
+                    <br>
+                    <input type="text" id="MyInputCountry" onkeyup="MyFilterCountry()" placeholder="">
+                    <br>
+                    <p></p>
+                    <label for="">Shape</label>
+                    <br>
+                    <input type="text" id="MyInputShape" onkeyup="MyFilterShape()" placeholder="">
+                    <br>
+                    <br> 
+                </div>
+            </div>
+            <!-- -----------------QUERY DATABASE_______________________ -->
+            <div class="col-md-8" id="DB-Header">
+
+                <div class="db-tag">
+                <h2>
+                    UFO Sightings DataBase
+                </h2>
+            </div>
+                <hr>
+               <tbody>
+                <div id="showData"></div>
+            </tbody>
+            </div>
+        </div>
+    </div> 
+    <!-- ---------------------------DATASET AND JS------------------------------------------- -->
+    <script src="/Users/bobbytaylor/Desktop/ufo_website/Data/data.js" type="text/javascript"></script>
+    <script src="/Users/bobbytaylor/Desktop/ufo_website/js/index.js" type="text/javascript"></script>
+</body>
+</html>
